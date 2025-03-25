@@ -1,1 +1,14 @@
-
+{
+  "name": "roblox-proxy",
+  "version": "1.0.0",
+  "description": "A proxy server for Roblox API using noblox.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "noblox.js": "^4.14.0",
+    "dotenv": "^16.0.3"
+  }
+}
